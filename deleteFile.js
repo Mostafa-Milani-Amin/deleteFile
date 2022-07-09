@@ -1,1 +1,0 @@
-const deleteFile = path => require("fs").unlink(path, (err) => err ? console.error(err) : console.log("File removed:", path));
