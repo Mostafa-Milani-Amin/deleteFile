@@ -4,3 +4,5 @@ const deleteManyFiles = pathArray => {
 
     }
 }
+
+module.exports = { deleteManyFiles }
